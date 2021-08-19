@@ -1,0 +1,49 @@
+.partners {
+    padding: 70px 135px 73px;
+}
+
+.partners .partners__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 160%;
+
+    text-transform: uppercase;
+
+    color: #121920;
+}
+
+.partners .partners__partners-list {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin-top: 30px;
+}
+
+.partner {
+    cursor: pointer;
+    overflow-y: hidden;
+
+    padding: 28px 18px;
+
+    width: 270px;
+    height: 120px;
+
+    display: grid;
+    place-content: center;
+
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+
+    transition: .5s;
+}
+
+.partner > img {
+    width: 100%;
+    height: auto;
+}
+
+.partner:hover {
+    transition: .5s;
+    box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+}
